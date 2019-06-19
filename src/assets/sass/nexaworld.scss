@@ -1,0 +1,49 @@
+//Bootstrap
+@import "vendor/bootstrap.min";
+@import "vendor/bootstrap-select.min";
+@import "vendor/jquery.fancybox";
+@import "vendor/jquery-ui";
+@import "vendor/select2";
+@import "vendor/jquery.fancybox-buttons";
+@import "vendor/jquery.mCustomScrollbar";
+@import "vendor/owl.carousel.min";
+@import "vendor/slick-slider";
+
+//Core Partials
+@import "variables";
+@import "fonts";
+@import "font-icons";
+@import "mixins";
+@import "base";
+@import "input-btn";
+@import "theme";
+@import "typography";
+@import "icons";
+@import "animations";
+@import "function";
+
+//Import ModulesPartials
+@import "partials/main-header-navigation";
+@import "partials/subheader-menu";
+@import "partials/home-banner";
+@import "partials/nexa-two-column";
+@import "partials/nexa-world-comp";
+@import "partials/nexa-footer";
+@import "partials/user-login";
+@import "partials/call-popup";
+@import "partials/breadcrumb";
+//Fancybox Custom Page Partials
+@import "partials/fancybox-custom";
+
+//Nexa Hub Bookmark Partials
+@import "partials/nexahub-bookmark";
+//Nexa Hub Brand Partials
+@import "partials/nexahub-brand";
+//Nexa Hub Carousel Partials
+@import "partials/nexahub-index";
+//Nexa Hub Listing Partials
+@import "partials/nexahub-listing";
+//Nexa Hub Detail Partials
+@import "partials/nexahub-detail";
+//Nexa Hub discoverNexa Tab Partials
+@import "partials/nexahub-discovernexa";

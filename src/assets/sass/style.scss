@@ -1,0 +1,144 @@
+//Bootstrap
+@import "vendor/bootstrap.min";
+@import "vendor/bootstrap-select.min";
+@import "vendor/jquery.bxslider";
+@import "vendor/jquery.fancybox";
+@import "vendor/jquery-ui";
+@import "vendor/select2";
+@import "vendor/jquery.fancybox-buttons";
+@import "vendor/jquery.mCustomScrollbar";
+@import "vendor/owl.carousel.min";
+@import "vendor/rotatestyle";
+@import "vendor/ion.rangeSlider";
+@import "vendor/slick-slider";
+//Core Partials
+@import "variables";
+@import "fonts";
+@import "font-icons";
+@import "mixins";
+@import "base";
+@import "input-btn";
+@import "theme";
+@import "typography";
+@import "icons";
+@import "animations";
+@import "function";
+//Import ModulesPartials
+@import "partials/main-header-navigation";
+@import "partials/subheader-menu";
+@import "partials/home-banner";
+@import "partials/services-homebox";
+@import "partials/nexa-car-grid";
+@import "partials/nexa-world-comp";
+@import "partials/nexa-two-column";
+@import "partials/nexa-testimonial";
+@import "partials/nexa-social";
+@import "partials/nexa-footer";
+@import "partials/register-interest";
+@import "partials/user-login";
+@import "partials/call-popup";
+@import "partials/nexa-nostrud";
+//Brands page partials
+@import "partials/brands/mixins";
+@import "partials/brands/hero";
+@import "partials/brands/sticky-navigation";
+@import "partials/brands/highlights";
+@import "partials/brands/design360";
+@import "partials/brands/register-for-interest";
+@import "partials/brands/reviews";
+@import "partials/brands/articles";
+//Design Page Partials
+@import "partials/design-page";
+//Engine Page Partials
+@import "partials/engine-page";
+//Feature Page Partials
+@import "partials/feature-page";
+//Specification Page Partials
+@import "partials/specification-page";
+//E-book Page Partials
+@import "partials/e-book";
+//Test Drive Page Partials
+@import "partials/test-drive";
+//Technology Page Partials
+@import "partials/technology-page";
+//Testimonials Page Partials
+@import "partials/testimonials-page";
+//Corporate Sales Page Partials
+@import "partials/corporate-banner";
+@import "partials/corporate-sales";
+@import "partials/corporate-enquiry";
+//Locator Page Partials
+@import "partials/showroom-details";
+@import "partials/showroom-map";
+//Safety page Partials
+@import "partials/brandsafety";
+//Inner Page Banner Partials
+@import "partials/inner-banner";
+//Road support Page Partials
+@import "partials/roadsupport-content";
+//Corporate Sales Page Partials
+@import "partials/insurance-page";
+//Genuine Accessories Page Partials
+@import "partials/genuine-accessories-page";
+//Car Listing Page Partials
+@import "partials/car-listing-page";
+//Breadcrumb Page Partials
+@import "partials/breadcrumb";
+//Fancybox Custom Page Partials
+@import "partials/fancybox-custom";
+//Fancybox Custom Page Partials
+@import "partials/full-content";
+//Form Partials
+@import "partials/form";
+//Form Partials
+@import "partials/book-showroom";
+//Form Partials
+@import "partials/maruti-true-value";
+//Form Partials
+@import "partials/request-quote";
+//Extended Warranty Partials
+@import "partials/extended-warranty";
+//Privacy Policy Partials
+@import "partials/privacy-policy";
+//Media Page Partials
+@import "partials/media";
+//Review All Page Partials
+@import "partials/review-all-page";
+//Genuine Parts Page Partials
+@import "partials/genuine-parts-page";
+//Personalize Page Partials
+@import "partials/personalize";
+//Contact us Partials
+@import "partials/contact-us";
+//Contact us Partials
+@import "partials/service-feedback";
+//E-Book Main us Partials
+@import "partials/ebook-main";
+//Nexa Finance Partials
+@import "partials/finance";
+//My Account Partials
+@import "partials/my-account-page";
+//Search Partials
+@import "partials/search-page";
+//Error Partials
+@import "partials/error-page";
+//Need Help Partials
+@import "partials/need-help";
+//Home Page Fixed Component Partials
+@import "partials/fixed-sidebar";
+//Personalized Configurator
+@import "partials/personalize-configurator";
+//Import for configurator related files
+@import "partials/configurator/configurator-loader";
+@import "partials/configurator/configuration-wrapper";
+@import "partials/configurator/configuration-car-config";
+@import "partials/configurator/configurator-floating-container";
+@import "partials/configurator/canvas-placeholder";
+@import "partials/configurator/configurator-left-panel";
+@import "partials/configurator/configurator-package";
+@import "partials/configurator/configurator-pop-up";
+@import "partials/configurator/configurator-responsive";
+@import "partials/configurator/configurator-explore-features";
+@import "partials/configurator/configurator-mobile-view";
+@import "partials/configurator/configurator-modal";
+

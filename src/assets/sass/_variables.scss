@@ -1,0 +1,147 @@
+/* Media queries Breakpoints */
+$breakpoints: (
+  'mobile'  : ( max-width:  480px ),  // for mobile portrait only
+  'below-tablet': ( max-width: 767px ),	// covering gap from 480 to 997 if needed
+  'tablet': ( max-width: 768px ),	// for mobile landscape and tablet portrait
+  'below-desktop': (max-width: 991px), // covering gap from 768 to 992 if needed
+  'desktop'  : ( min-width: 992px ), // for desktop and tablet landscape
+);
+
+@mixin breakpoint($point) {
+	@if $point == smallmobile {
+		@media (max-width: 369px) { @content ; }
+	}
+	@else if $point == mobile {
+		@media (max-width: 767px) { @content ; }
+	}
+	/*@else if $point == md {
+		@media (max-width: 768px) { @content ; }
+	 }*/	   
+	@else if $point == lg {
+		@media (max-width: 992px) { @content ; }
+	}
+	@else if $point == xl {
+	  @media (max-width: 1200px) { @content ; }
+    }
+	
+ }
+
+$color-spacing:(
+	sky-blue: 120px,
+	yellow: 100px,
+	light-green: 80px,
+	red: 75px,
+	blue: 60px,
+	lighter-pink: 50px,
+	pink: 40px,
+	green: 30px,
+	light-pink: 20px,
+	dark-blue: 10px
+);
+
+//Fonts variable
+$MuseoSans100: 'MuseoSans-100';
+$MuseoSans100Italic: 'MuseoSans-100Italic';
+$MuseoSans300: 'MuseoSans-300';
+$MuseoSans300Italic: 'MuseoSans-300Italic';
+$MuseoSans500: 'MuseoSans-500';
+$MuseoSans500Italic: 'MuseoSans-500Italic';
+$MuseoSans700: 'MuseoSans-700';
+$MuseoSans700Italic: 'MuseoSans-700Italic';
+$MuseoSans900: 'MuseoSans-900';
+$MuseoSans900Italic: 'MuseoSans-900Italic';
+
+/* Renovate America Primary Colours */
+
+$color-dark-grey: #393939;
+$color-light-grey: #868686;
+$color-red: #ec1e32;
+$color-light-blue: #00b4e4;
+$color-dark-blue: #00467c;
+$color-green: #b4e324;
+$color-yellow: #fff247;
+$color-light-cream: #fff68f;
+
+$color-footer-background-bottom: #414141;
+$color-footer-text-color: #bababa;
+$color-primary-background: #F5F5F5;
+$color-closet-white: #f2f2f2;
+
+
+/* Sprite Icons */
+$icon-sprite: url(../img/icon-sprite.png);
+
+/*Maruti Sass color variables*/
+$color-header-color: #f2f2f2;
+$color-header-element-color: #8b8b8b;
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-search-box:#b5b5b5;
+$color-banner-content:#9699a0;
+$color-services-list:#b7b7b7;
+$color-services-list-border:#cccccc;
+$color-car-imagebox:#979797;
+$color-social-nexa:#898989;
+$color-social-content:#ebebeb;
+$colors-social-paragraph:#00b9e4;
+$color-social-share:#606770;
+$color-social-header:#2c2b2b;
+$color-footer-copyright:#1c1c1c;
+$color-footer-right:#727272;
+$color-nexa-grey:grey;
+$color-nexa-submenu:#d5d5d5;
+$color-submenu:#f6f6f6;
+$color-submenu-connectbox:#cecece;
+$color-button-hover-color:#0e1a5d;
+$color-disclaimer:#7f7f7f;
+$color-select-register:#8f8f8f;
+$color-configurator-wrapper-color:#b1b1b1;
+$color-leftPanel-color:#f8f8f8;
+$color-config-left-col:#0d0d0d;
+$color-config-feature-box:#c3c3c3;
+$color-config-span:#2c5b9e;
+$color-config-label-text:a1a1a1;
+$color-config-package:#c6c6c6;
+$color-config-link:#c4c4c4;
+$color-config-paragraph:#2c2c2c;
+$color-floating-color-blk:#1d1d1b;
+$color-floating-color-grey-dark:#7e7b74;
+$color-floating-color-maroon:#732431;
+$color-floating-color-brown:#916c50;
+$color-grey-light-color:#cbcbca;
+$color-exterior-panel:#f5f4f5;
+$color-exterior-links:#252424;
+$color-configurator-left-panel:#898d90;
+$color-link-slider-box:#585858;
+$color-form-row-color:#7e7e7e;
+$color-form-field-input:#9e9e9e;
+$color-configurator-blue-mobile:#7e9fcd;
+$color-configurator-black-mobile:#787876;
+$color-configurator-grey-mobile:#a3a19e;
+$color-configurator-maroon-mobile:#96555f;
+$color-configurator-brown-mobile:#b79983;
+$color-configurator-exterior-mobile:#e6e6e6;
+//color for brand page
+$nexa-blue: #183f66;
+$pearl-metallic-brown: #86654f;
+$pearl-midnight-black: #231f20;
+$metallic-magma-gray: #72716b;
+$metallic-premium-silver: #dbdbdb;
+$pearl-sangria-red : #6c1e31;
+$pearl-snow-white: #dedede;
+
+$color-light-gray: #e3e3e3;
+$bg-color-inherit: inherit;
+$color-dark-gray: #9e9f9f;
+
+/*Maruti Sass Fonts Variable*/
+
+$base-font-size: 16 !default;
+
+/*Font family maruti*/
+
+$font-family :'Fira Sans', sans-serif;
+
+
+
+
